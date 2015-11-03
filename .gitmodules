@@ -1,0 +1,3 @@
+[submodule "daocloud/weixinpub"]
+	path = daocloud/weixinpub
+	url = git@github.com:nareix/sougou-weixin-grab.git

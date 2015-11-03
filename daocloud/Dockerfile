@@ -5,7 +5,7 @@ MAINTAINER nareix <nareix@gmail.com>
 
 RUN apk --update add nginx
 
-COPY html /usr/share/nginx/html
+COPY weixinpub /usr/share/nginx/html
 
 EXPOSE 80
 
