@@ -1,7 +1,7 @@
 
-MAINTAINER nareix <nareix@gmail.com> 
-
 FROM ubuntu:14.04
+
+MAINTAINER nareix <nareix@gmail.com> 
 
 RUN apt-get install -y libjpeg-turbo8 libfontconfig libicu52
 ADD https://nodejs.org/dist/v4.2.1/node-v4.2.1-linux-x64.tar.gz node.tar.gz
